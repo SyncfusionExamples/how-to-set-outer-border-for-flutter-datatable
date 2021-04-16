@@ -55,7 +55,7 @@ By default, DataGrid shows horizontal grid lines. The following example shows ho
     );
   }
 ```
-<img alt="data cells grid lines "  src="https://www.syncfusion.com/uploads/user/kb/flut/flut-4299/flut-4299_img1.png" width="250" height="400" />|
+<img alt="data cells grid lines "  src="https://www.syncfusion.com/uploads/user/kb/flut/flut-4299/flut-4299_img1.png" width="250" height="400" />
 ## Set grid lines for header cells
 
 By default, DataGrid shows horizontal grid lines. The following example shows how to set vertical and horizontal grid lines to header cells. 
@@ -106,7 +106,7 @@ By default, DataGrid shows horizontal grid lines. The following example shows ho
     );
   }
 ```
- <img alt="header cells grid lines "  src="https://www.syncfusion.com/uploads/user/kb/flut/flut-4299/flut-4299_img2.jpeg" width="250" height="400" />|
+ <img alt="header cells grid lines "  src="https://www.syncfusion.com/uploads/user/kb/flut/flut-4299/flut-4299_img2.jpeg" width="250" height="400" />
 
 ## Set outer border for DataGrid
 
@@ -167,7 +167,7 @@ By default, the top and bottom border for datagrid will be shown. To show anothe
     );
   }
 ```
-<img alt="Datatable outer border "  src="https://www.syncfusion.com/uploads/user/kb/flut/flut-4299/flut-4299_img3.png" width="250" height="400" />|
+<img alt="Datatable outer border "  src="https://www.syncfusion.com/uploads/user/kb/flut/flut-4299/flut-4299_img3.png" width="250" height="400" />
  
 **[View document in Syncfusion Flutter Knowledge base](https://www.syncfusion.com/kb/12522/how-to-set-border-for-flutter-datatable-sfdatagrid)**
 

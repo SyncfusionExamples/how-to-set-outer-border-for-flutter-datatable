@@ -1,7 +1,9 @@
 # how to set outer border for flutter datatable
 
 The Syncfusion Flutter DataTable widget provides support to set the border i.e grid lines by using following properties,
+
 •	SfDataGrid.gridLinesVisibility: To set the grid lines for the cells other than header and stacked header cells.
+
 •	SfDataGrid.headerGridLinesVisibility: To set the grid lines of header and stacked header cells.
 
 ## Set grid lines for data cells
@@ -56,6 +58,7 @@ By default, DataGrid shows horizontal grid lines. The following example shows ho
   }
 ```
 <img alt="data cells grid lines "  src="https://www.syncfusion.com/uploads/user/kb/flut/flut-4299/flut-4299_img1.png" width="250" height="400" />
+
 ## Set grid lines for header cells
 
 By default, DataGrid shows horizontal grid lines. The following example shows how to set vertical and horizontal grid lines to header cells. 

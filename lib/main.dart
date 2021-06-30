@@ -58,7 +58,7 @@ class _ChangeRowBackgroundColorSampleState
           source: employeeDataSource,
           columnWidthMode: ColumnWidthMode.fill,
           columns: <GridColumn>[
-            GridTextColumn(
+            GridColumn(
                 columnName: 'id',
                 label: Container(
                     padding: EdgeInsets.symmetric(horizontal: 16.0),
@@ -66,13 +66,13 @@ class _ChangeRowBackgroundColorSampleState
                     child: Text(
                       'ID',
                     ))),
-            GridTextColumn(
+            GridColumn(
                 columnName: 'name',
                 label: Container(
                     padding: EdgeInsets.symmetric(horizontal: 16.0),
                     alignment: Alignment.center,
                     child: Text('Name'))),
-            GridTextColumn(
+            GridColumn(
                 columnName: 'designation',
                 label: Container(
                     padding: EdgeInsets.symmetric(horizontal: 16.0),
@@ -81,7 +81,7 @@ class _ChangeRowBackgroundColorSampleState
                       'Designation',
                       overflow: TextOverflow.ellipsis,
                     ))),
-            GridTextColumn(
+            GridColumn(
                 columnName: 'salary',
                 label: Container(
                     padding: EdgeInsets.symmetric(horizontal: 16.0),

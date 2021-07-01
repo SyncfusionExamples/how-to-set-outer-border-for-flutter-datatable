@@ -23,7 +23,7 @@ By default, DataGrid shows horizontal grid lines. The following example shows ho
         headerGridLinesVisibility: GridLinesVisibility.both,
         columnWidthMode: ColumnWidthMode.fill,
         columns: <GridColumn>[
-          GridTextColumn(
+          GridColumn(
               columnName: 'id',
               label: Container(
                   padding: EdgeInsets.symmetric(horizontal: 16.0),
@@ -31,13 +31,13 @@ By default, DataGrid shows horizontal grid lines. The following example shows ho
                   child: Text(
                     'ID',
                   ))),
-          GridTextColumn(
+         GridColumn(
               columnName: 'name',
               label: Container(
                   padding: EdgeInsets.symmetric(horizontal: 16.0),
                   alignment: Alignment.center,
                   child: Text('Name'))),
-          GridTextColumn(
+          GridColumn(
               columnName: 'designation',
               label: Container(
                   padding: EdgeInsets.symmetric(horizontal: 16.0),
@@ -46,7 +46,7 @@ By default, DataGrid shows horizontal grid lines. The following example shows ho
                     'Designation',
                     overflow: TextOverflow.ellipsis,
                   ))),
-          GridTextColumn(
+          GridColumn(
               columnName: 'salary',
               label: Container(
                   padding: EdgeInsets.symmetric(horizontal: 16.0),
